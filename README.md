@@ -1,2 +1,3 @@
-# web_resume
+# Personal Website / Resume
+
 personal web resume/website
