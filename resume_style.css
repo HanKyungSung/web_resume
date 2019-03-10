@@ -152,4 +152,19 @@ header {
         display: block;
         line-height: 2;
     }
+
+    .media-object {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .icon-left,
+    .icon-right {
+      order: 1;
+    }
+
+    .blurb-wrapper-right,
+    .blurb-wrapper-left {
+      order: 2;
+    }
 }
