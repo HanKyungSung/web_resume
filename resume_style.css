@@ -166,5 +166,6 @@ header {
     .blurb-wrapper-right,
     .blurb-wrapper-left {
       order: 2;
+      padding-top: 2rem;
     }
 }
