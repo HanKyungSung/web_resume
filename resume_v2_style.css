@@ -6,15 +6,26 @@ html, body {
     line-height: 20px;
     color: #303137;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
-.main-middle {
+.main-top {
+    /* display: flex; */
     background-color: #F1F3Fa;
     padding: 0;
+    padding-bottom: 20px;
+    margin: auto;
 }
 
-.main-bottom {
+.main-section {
     margin: 40px;
+    margin-bottom: 120px;
+    padding: 0px;
+}
+
+.project-section {
+    margin: 80px;
+    margin-bottom: 120px;
     padding: 0px;
 }
 
@@ -22,8 +33,62 @@ html, body {
     max-width: 1140px;
     width: 100%;
     margin: 0 auto;
+}
+
+.project-body-container {
+    display: flex;
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 40px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.media-container {
     display: flex;
     align-items: center;
+}
+
+.header-text-container {
+    text-align: center;
+    font-size: 41px;
+    font-style: bold;
+    margin: 50px 0;
+}
+
+.experience-media-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.work-container {
+    width: 300px;
+}
+
+.work-name {
+    font-size: 24px;
+    margin: 5px;
+    line-height: 1.9;
+}
+
+.work-description {
+    margin: 5px;
+}
+
+.project-media-container{
+    border: 2px solid black;
+    width: 300px;
+    height: 650px;
+}
+
+.project-picture-container {
+    width: 290px;
+    height: 290px;
+    margin: 0 auto;
+    margin-bottom: 5px;
 }
 
 .skillbar-container {
@@ -34,16 +99,39 @@ html, body {
     align-items: center;
 }
 
+.title-text {
+    margin: auto;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    padding-bottom: 35px;
+}
+
 .body-item-container {
     display: flex;
     justify-content: center;
+    order: 2;
     padding: 12px;
+}
+
+.body-item-container-text {
+    order: 1;
+    display: block;
 }
 
 .icon-left,
 .icon-right {
-    display: flex;
-    justify-content: center;
+    order: 2;
+}
+
+.profile-item-container-text {
+    order: 2;
+    display: block;
+}
+
+.profile-icon-left,
+.profile-icon-right {
+    order: 1;
 }
 
 .blurb-header {
@@ -51,11 +139,62 @@ html, body {
     margin-top: 0;
 }
 
+.profile-header {
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
 .blurb-info {
+    display: block;
     color: #646B90;
     font-size: 18px;
 }
 
+/* Contact Section */
+.contact-section {
+    background-color: #F1F3Fa;
+    margin: 80px 0 200px 0;
+    padding: 0px;
+}
+
+.contact-media-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contact-description {
+    font-size: 30px;
+    display: flex;
+    width: 550px;
+    height: 180px;
+    justify-content: left;
+}
+
+.contact-body-container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-icon-left {
+    order: 1;
+    display: flex;
+    width: 550px;
+    height: 180px;
+    justify-content: center;
+}
+
+.fixed_size {
+    display: flex;
+    width: 550px;
+    height: 180px;
+    align-items: center;
+}
+
+/* Footer Scetion */
 .footer-wrapper {
     position: fixed;
     width: 100%;
@@ -79,8 +218,6 @@ html, body {
     width: 100%; */
     margin: 0 auto;
     display: flex;
-    
-    
 }
 
 .btn-outline-secondary {
